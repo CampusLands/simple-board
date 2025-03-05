@@ -7,19 +7,20 @@
 main{
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 30px;
 }
 .div__container{
-    width: 250px;
+    width: 255px;
     height: 157px;
-    background: blue;
+    background: #eee;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
 }
 .div__container div{
-    background: orange;
+    background: #b9b9b9;
     width: 100%;
     display: flex;
     flex-direction: column;
